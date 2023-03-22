@@ -235,7 +235,7 @@ def on_ui_tabs():
                                 with gr.Column(elem_id=f"{id_part}_column_batch"):
                                     generate_mov_mode = gr.Radio(label="Generate Movie Mode", elem_id="movie_mode",
                                                                  choices=["MP4V", "H.264", "XVID", ], type="index",
-                                                                 value="H.264")
+                                                                 value="MP4V")
 
                                     noise_multiplier = gr.Slider(minimum=0,
                                                                  maximum=1.5,
